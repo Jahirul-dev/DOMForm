@@ -8,7 +8,7 @@ submit.addEventListener('submit', e=>{
 
 const usernames = 'shande32'
 const pattern =/^[a-z]{6,}$/;
-
+const pattern2 =/[a-z]{5,}/
 let results = pattern.test(usernames);
 
 if(results){
@@ -18,3 +18,6 @@ else{
     console.log("Not passed");
     
 }
+
+let resultss = usernames.search(pattern2);
+console.log(resultss);
