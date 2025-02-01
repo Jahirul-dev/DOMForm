@@ -6,8 +6,15 @@ submit.addEventListener('submit', e=>{
     
 })
 
-const usernames = 'shande'
+const usernames = 'shande32'
 const pattern =/^[a-z]{6,}$/;
 
 let results = pattern.test(usernames);
-console.log(results);
+
+if(results){
+    console.log("test passed");
+}
+else{
+    console.log("Not passed");
+    
+}
