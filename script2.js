@@ -1,7 +1,6 @@
-let submit = document.getElementById('submit');
+let forms = document.querySelector("signup-form");
 
-submit.addEventListener('click', e=>{
-    e.preventDefault();
-    console.log(document.getElementById('username').value);
-    
-})
+forms.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log(forms.username.value);
+});
