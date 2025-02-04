@@ -24,6 +24,7 @@ forms.username.addEventListener("keyup", (e) => {
   if (checkValidation.test(e.target.value)) {
     console.log("passed");
     forms.username.setAttribute("class", "success");
-  } else console.log("failed");
+  } else {console.log("failed");
   forms.username.setAttribute("class", "error");
+  }
 });
