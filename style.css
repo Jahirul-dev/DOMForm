@@ -20,9 +20,9 @@ input {
   margin-top: auto;
 }
 .success{
-  border: 2px solid limegreen;
+  border: 5px solid limegreen;
 }
 
 .error{
-  border: 2px solid crimson;
+  border: 5px solid crimson;
 }
